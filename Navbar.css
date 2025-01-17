@@ -1,0 +1,20 @@
+.header-sec {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+
+.nav-link ul{
+    display: flex;
+    gap: 70px;
+    margin: 10px;
+    padding-right: 520px;
+
+}
+.nav-link ul li a{
+    text-decoration: none;
+    color: azure;
+    font-size: 25px;
+}

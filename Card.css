@@ -1,0 +1,79 @@
+
+/* About */
+
+.container {
+    display: flex;
+    margin: 80px;
+}
+
+.left-con {
+    /* border: 2px solid red; */
+    border-radius: 50%;
+}
+
+.left-con img{
+    /* border: 2px solid red; */
+    border-radius: 70%;
+    height: 450px;
+    width: 450px;
+}
+
+.right-con {
+    /* border: 2px solid red; */
+    margin: 50px;
+    padding: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.right-con h1 {
+    font-size: 80px;
+    text-shadow: 0px 3px 2px rgb(162, 150, 150);
+}
+
+.right-con h2 {
+    text-shadow: 0px 5px 3px rgb(181, 178, 178);
+    font-size: 50px;
+    color: rgb(169, 35, 226);
+
+}
+
+.right-con p {
+    margin-top: 10px;
+    font-size: 27px;
+}
+
+.right-con input {
+    /* border: 7px double gray; */
+    margin-top: 35px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px;
+    font-size: 20px;
+    width: 160px;
+    background-color: rgb(172, 11, 241);
+    color: white;
+    box-shadow: 7px 8px 8px rgb(168, 167, 167);
+    border: 2px  solid black;
+}
+
+.btn button {
+    margin-top: 15px;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 160px;
+    background-color: rgb(172, 11, 241);
+    color: white;
+    box-shadow: 7px 8px 8px rgb(168, 167, 167);
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+
+.btn button:hover {
+    transform: translateY(-5px);
+} 
+
